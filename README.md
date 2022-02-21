@@ -11,7 +11,7 @@
 
 ### Types of Attributes in the Data
 
-- <strong>PII Direct Identifiers:</strong> Confidential Information like Name, email, government ID, etc. that uniquely identifies an individual<br/>
+- <strong>PII Direct Identifiers:</strong> Confidential Information like Name, email, etc. that uniquely identifies an individual<br/>
 
 - <strong>Quasi-Identifiers Attributes:</strong> Indirectly linked to individuals, Quasi-identifiers don't uniquely identify an individual, but, when combined and cross-referenced with individual records, they can substantially increase the likelihood that an attacker will be able to re-identify an individual. (e.g. Characteristics like, address, zip code, age, working title, company - Information that is available publically anyways and not personal)<br/>
 
