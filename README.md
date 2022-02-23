@@ -41,7 +41,7 @@ A common misconception is to think that synthetic data is inherently private. Ev
 Neural network based synthetic data generation approaches might memorize features in the training data. Ultimately, memorized patterns can be reproduced in the synthetic data, leading to privacy leaks. Luckily, we can add additional layers of privacy to the synthesization mechanisms, such as training the model using algorithms that satisfy the definition of differential privacy.<br/><br/>
 
 
-## Differentientially-Private Synthetic Data 
+## Differentially-Private Synthetic Data 
 
 Differential Privacy [DP] minimizes re-identification- and privacy risks to a theoretical mathematical minimum and outputs privacy-preserving synthetic data robust against privacy attacks. From a high level perspective, DP uses noise to mask the presence of any particular individual in the input data. To generate differentially-private synthetic records, the models learn the original data distribution with a DP algorithm. This way, the synthetic data benefits from the theoretical guarantees that DP provides.
 
