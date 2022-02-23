@@ -48,7 +48,7 @@ Differential privacy offers significantly higher privacy protection levels than 
 
 ### The Ideal Target Solution 
 
-- The overall goal is to generate synthetic data that perfectly mimics the desired characteristics of an original source dataset.<br/>
+- The overall goal is to generate synthetic data that perfectly mimics characteristics of an original source dataset.<br/>
 
 - The amount of records with unique attribute value combinations needs to be minimized - achieve zero K=1 anonymous data points. Consequently, the granularity of the synthetically generated dataset is constrained, also consider L-Diversity and T-Closeness<br/>
 
