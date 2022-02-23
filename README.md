@@ -61,7 +61,7 @@ Differential privacy offers significantly higher privacy protection levels than 
 
 The information displayed in this section has been sourced and aggregated from [Adreas Kopp's article](https://cloudblogs.microsoft.com/opensource/2021/02/18/create-privacy-preserving-synthetic-data-for-machine-learning-with-smartnoise/) in Microsoft's open source Blog entry on the topic of "Create privacy-preserving synthetic data for machine learning with SmartNoise"
 
-Please refer to the [research paper](https://arxiv.org/pdf/2011.05537.pdf) to learn more about DP-SDG synthesizers and their performance in machine learning scenarios.<br/><br/>
+Please refer to this [research paper by Microsoft AI](https://arxiv.org/pdf/2011.05537.pdf) to learn more about DP-SDG synthesizers and their performance in machine learning scenarios.<br/><br/>
 
 - <strong>Multiplicative Weights Exponential Mechanism (MWEM):</strong> Achieves Differential Privacy by combining Multiplicative Weights and Exponential Mechanism techniques, A relatively simple but effective approach, Requires fewer computational resources, shorter runtime 
 
