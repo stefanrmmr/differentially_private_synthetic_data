@@ -1,6 +1,8 @@
+## Work in progress
+
 # Differentially Private Synthetic Data Generation
 "Privacy preserving approaches for generating synthetic data sets without having to compromise on data utility"<br/> 
-~ Summary by [Stefan Rummer](https://www.linkedin.com/in/stefanrmmr/) (work in progress) 
+~ Summary by [Stefan Rummer](https://www.linkedin.com/in/stefanrmmr/)
 
 ## Foundations and Purpose
 
