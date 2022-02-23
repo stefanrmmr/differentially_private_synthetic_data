@@ -2,11 +2,11 @@
 
 ### Foundations and Purpose
 
-<strong>What is synthetic data generation [SDG]? </strong> In our context, synthetic data is algorithmically created data that looks and behaves like real data. Generative models learn the statistical distribution in the original data and draw artificial samples from it to generate synthetic data. The synthetic data generation process completely breaks the 1-1 relation between the original and synthetic records. Contrary to other techniques, like pseudonymization, there is no key to go back from the synthetic records to the original ones.This process is irreversible.
+<strong>What is synthetic data generation [SDG]? </strong> <br/>In our context, synthetic data is algorithmically created data that looks and behaves like real data. Generative models learn the statistical distribution in the original data and draw artificial samples from it to generate synthetic data. The synthetic data generation process completely breaks the 1-1 relation between the original and synthetic records. Contrary to other techniques, like pseudonymization, there is no key to go back from the synthetic records to the original ones.This process is irreversible.
 
-<strong>Why is there the need for synthetic data?  </strong>Real-world data is sometimes expensive to collect, or simply hard to come by. In these cases, synthetic data is easier to produce than collecting original data. It also allows the training of models on a wide variety of situations that real-world data might not capture. 
+<strong>Why is there the need for synthetic data?  </strong><br/>Real-world data is sometimes expensive to collect, or simply hard to come by. In these cases, synthetic data is easier to produce than collecting original data. It also allows the training of models on a wide variety of situations that real-world data might not capture. 
 
-<strong>Why is there the need to enhance synthetic data generation to fulfill privacy standards? </strong>There exist various scenarios where companies use synthetic data is to make information available for processing when regulations or other privacy concerns restrict access to the original data. For instance, the processing of customer data in a post-GDPR world involves strict compliance and governance rules for companies. In these cases, synthetic data is used as an anonymization method that brings companies more agility and freedom to process data in a safe and compliant way. This is what we focus on in this article, synthetic data in the context of privacy preservation.<br/><br/>
+<strong>Why is there the need to enhance synthetic data generation to fulfill privacy standards? </strong><br/>There exist various scenarios where companies use synthetic data is to make information available for processing when regulations or other privacy concerns restrict access to the original data. For instance, the processing of customer data in a post-GDPR world involves strict compliance and governance rules for companies. In these cases, synthetic data is used as an anonymization method that brings companies more agility and freedom to process data in a safe and compliant way. This is what we focus on in this article, synthetic data in the context of privacy preservation.<br/><br/>
 
 
 ### Types of Attributes in the Data
@@ -32,7 +32,7 @@ Only data that is sensitive is replaced with synthetic data. This requires a hea
 
 ### Risks in Synthetically Generated Data
 
-Article by Statice: https://www.statice.ai/post/how-manage-reidentification-risks-personal-data-synthetic-data
+Please refer to this [article by statice](https://www.statice.ai/post/how-manage-reidentification-risks-personal-data-synthetic-data) which served as the source for the following paragraph.
 
 A common misconception is to think that synthetic data is inherently private. Even though Synthetic data does not contain any PII in theory (CCP&GDPR conforming data structure), there still exists the chance that it resambles unique characteristics of the original dataset that could make it possible to gather information on real events or individuals in the original dataset from the synthetic data. 
 
@@ -57,8 +57,23 @@ Differential privacy offers significantly higher privacy protection levels than 
 
 ### Implementation of Privacy-preserving SDG Approaches
 
-Different opportunities as listed in the blue box at bottom of page:<br/>
-https://cloudblogs.microsoft.com/opensource/2021/02/18/create-privacy-preserving-synthetic-data-for-machine-learning-with-smartnoise/<br/><br/>
+The information displayed in this section has been sourced and aggregated from [Adreas Kopp's article](https://cloudblogs.microsoft.com/opensource/2021/02/18/create-privacy-preserving-synthetic-data-for-machine-learning-with-smartnoise/) in Microsoft's open source Blog entry on the topic of "Create privacy-preserving synthetic data for machine learning with SmartNoise"
+
+Please refer to the [research paper](https://arxiv.org/pdf/2011.05537.pdf) to learn more about DP-SDG synthesizers and their performance in machine learning scenarios.<br/><br/>
+
+- <strong>Multiplicative Weights Exponential Mechanism (MWEM):</strong> Achieves Differential Privacy by combining Multiplicative Weights and Exponential Mechanism techniques, A relatively simple but effective approach, Requires fewer computational resources, shorter runtime 
+
+- <strong>Differentially Private Generative Adversarial Network (DPGAN):</strong> Adds noise to the discriminator of the GAN to enforce Differential Privacy, Has been used with image data and electronic health records (HER) 
+
+- <strong>Private Aggregation of Teacher Ensembles Generative Adversarial Network (PATEGAN):</strong> 	
+A modification of the PATE framework that is applied to GANs to preserve Differential Privacy of synthetic data 
+Improvement of DPGAN, especially for classification tasks 
+
+- <strong>DP-CTGAN: </strong>Takes the state-of-the-art CTGAN for synthesizing tabular data and applies DPSGD (the same method for ensuring Differential Privacy that DPGAN uses), Suited for tabular data, avoids issues with mode collapse, Can lead to extensive training times 
+
+- <strong>PATE-CTGAN: </strong>Takes the state-of-the-art CTGAN for synthesizing tabular data and applies PATE (the same method for ensuring Differential Privacy that PATEGAN uses), Suited for tabular data, avoids issues with mode collapse 
+
+- <strong>Qualified Architecture to Improve Learning (QUAIL):</strong> Ensemble method to improve the utility of synthetic differentially private datasets for machine learning tasks, Combines a differentially private synthesizer and an embedded differentially private supervised learning model to produce a flexible synthetic data set with high machine learning utility<br/><br/> 
 
 
 ### Validation & Characteristics that need to be assessed 
