@@ -7,6 +7,12 @@ For **Continuous Data with binary Targets** using DP-WGAN (Differentially Privat
 
 ___
 
+### Metrics achieved for DP-WGAN on the Heart Disease Dataset<br/><br/>
+
+<img width="684" alt="synthdata_sc1" src="https://user-images.githubusercontent.com/82606558/180919628-b0720159-df65-40b9-90be-ea5d79279e84.png">
+
+___
+
 ###  Process Steps & Key Concepts
 - The data needs to be in csv format and has to be partitioned as train and test before feeding it to the models. 
 - Missing values are not supported and needs to replaced appropriately by the user before usage.
