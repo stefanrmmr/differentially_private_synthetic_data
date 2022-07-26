@@ -1,4 +1,4 @@
-# Experimental Implementation of DP-WGAN<br/>Differentially Private Synthetic Data Generation (DP-SDG)
+# Experimental Implementation of DP-WGAN<br/>Differentially Private Synthetic Data Generation 
 For **Continuous Data with binary Targets** using DP-WGAN (Differentially Private Wasserstein GAN)
 
 **Dataset** used in this notebook: "[Health care: Heart attack possibility](https://www.kaggle.com/datasets/nareshbhat/health-care-data-set-on-heart-attack-possibility?select=heart.csv)" 
@@ -21,7 +21,7 @@ ___
 - The generative model is used to create a synthetic version of the train dataset
 - To compensate for irregularities multiple GAN-Generator models are trained
 - To compensate for irregularities multiple synthetic datasets are generated,<br/> the optimal best-performing dataset that yields the max AUC is selected<br/><br/>
-- **Logistic Regression Classifiers** are trained using the real training data and on the synthetically generated training data 
+- **Logistic Regression Classifiers** are trained using the real data, as well as, the synthetically generated dataset
 - Both classifiers are evaluated regarding performance on the left-out test dataset (real test data, preserved for evaluation)
 - Relevant Metrics (mainly AUC curves) as well as visualizations of correlation-matrices of synthetic datasets were generated
 
