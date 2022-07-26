@@ -2,15 +2,15 @@
 For **Continuous Data with binary Targets** using the Differentially Private Wasserstein GAN
 
 1) DP-WGAN **Synthetic Data** for "Health care: Heart attack possibility" [Kaggle Dataset](https://www.kaggle.com/datasets/nareshbhat/health-care-data-set-on-heart-attack-possibility?select=heart.csv) --> [view Notebook](https://github.com/stefanrmmr/differentially_private_synthetic_data/blob/main/dpwgan_borealis_heart_disease.ipynb)<br/>
-2) DP-WGAN **Synthetic Data** for "BankNote Authentication UCI" [Kaggle Dataset](https://www.kaggle.com/datasets/shantanuss/banknote-authentication-uci) --> [view Notebook](https://github.com/stefanrmmr/differentially_private_synthetic_data/blob/main/dpwgan_borealis_banknote.ipynb)
+2) DP-WGAN **Synthetic Data** for "BankNote Authentication UCI" [Kaggle Dataset](https://www.kaggle.com/datasets/shantanuss/banknote-authentication-uci) --> [view Notebook](https://github.com/stefanrmmr/differentially_private_synthetic_data/blob/main/dpwgan_borealis_banknote.ipynb)<br/><br/>
 
 ___
 
 ### Metrics achieved for DP-WGAN on the Heart Disease Dataset
-(after multiple attempts using normalized input data, epsilon = approx 3.4 and delta = 1e-5)
-<br/><br/>
+<br/>
 
 <img width="684" alt="synthdata_sc1" src="https://user-images.githubusercontent.com/82606558/180919628-b0720159-df65-40b9-90be-ea5d79279e84.png">
+*after multiple attempts using normalized input data, epsilon = approx 3.4 and delta = 1e-5
 
 ___
 
