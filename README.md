@@ -1,9 +1,8 @@
 # Experimental Implementation of DP-WGAN<br/>Differentially Private Synthetic Data Generation 
-For **Continuous Data with binary Targets** using DP-WGAN (Differentially Private Wasserstein GAN)
+For **Continuous Data with binary Targets** using the Differentially Private Wasserstein GAN
 
-**Dataset** used in this notebook: "[Health care: Heart attack possibility](https://www.kaggle.com/datasets/nareshbhat/health-care-data-set-on-heart-attack-possibility?select=heart.csv)" 
-[Kaggle Dataset]<br/>**Dataset** used in this notebook: "[BankNote Authentication UCI](https://www.kaggle.com/datasets/shantanuss/banknote-authentication-uci)" 
-[Kaggle Dataset]
+1) DP-WGAN **Synthetic Data** for "Health care: Heart attack possibility" [Kaggle Dataset](https://www.kaggle.com/datasets/nareshbhat/health-care-data-set-on-heart-attack-possibility?select=heart.csv) --> [view Notebook](https://github.com/stefanrmmr/differentially_private_synthetic_data/blob/main/dpwgan_borealis_heart_disease.ipynb)<br/>
+2) DP-WGAN **Synthetic Data** for "BankNote Authentication UCI" [Kaggle Dataset](https://www.kaggle.com/datasets/shantanuss/banknote-authentication-uci) --> [view Notebook](https://github.com/stefanrmmr/differentially_private_synthetic_data/blob/main/dpwgan_borealis_banknote.ipynb)
 
 ___
 
