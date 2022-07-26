@@ -6,7 +6,9 @@ For **Continuous Data with binary Targets** using the Differentially Private Was
 
 ___
 
-### Metrics achieved for DP-WGAN on the Heart Disease Dataset<br/><br/>
+### Metrics achieved for DP-WGAN on the Heart Disease Dataset
+(after multiple attempts using normalized input data, epsilon = approx 3.4 and delta = 1e-5)
+<br/><br/>
 
 <img width="684" alt="synthdata_sc1" src="https://user-images.githubusercontent.com/82606558/180919628-b0720159-df65-40b9-90be-ea5d79279e84.png">
 
